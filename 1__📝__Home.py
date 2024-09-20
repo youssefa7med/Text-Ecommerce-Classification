@@ -15,7 +15,12 @@ def preprocesor(text):
             tokens.append(token.lemma_)
     return " ".join(tokens)
 
-model = pickle.load(open('model.pkl', 'rb'))
+try:
+    model = pickle.load(open('model.pkl', 'r'))
+except Exception as e:
+    st.error(f"Error loading model: {e}")
+    model = None
+
 
 pred_type = {0: 'Books', 1: 'Clothing & Accessories', 2: 'Electronics', 3: 'Household'}
 
