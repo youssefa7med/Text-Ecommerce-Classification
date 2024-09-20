@@ -27,7 +27,7 @@ def preprocesor(text):
     return " ".join(tokens)
 
 # Load the saved model
-model = joblib.load("new_model.joblib")
+model = joblib.load("new_model.joblib", mmap_mode=None)
 
 pred_type = {0: 'Books', 1: 'Clothing & Accessories', 2: 'Electronics', 3: 'Household'}
 
