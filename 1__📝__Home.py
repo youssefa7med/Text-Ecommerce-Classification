@@ -5,7 +5,6 @@ import spacy
 
 data = pd.read_csv("Ecommerce_data_cleaned.csv")
 
-spacy.cli.download("en_core_web_sm")
 nlp = spacy.load('en_core_web_sm')
 
 def preprocesor(text):
