@@ -3,6 +3,8 @@ import pickle
 import pandas as pd
 import spacy
 
+st.set_page_config(page_title="Text Ecommerce Classification", initial_sidebar_state='expanded', page_icon='📝', layout='wide')
+
 data = pd.read_csv("Ecommerce_data_cleaned.csv")
 
 nlp = spacy.load('en_core_web_sm')
@@ -28,8 +30,6 @@ def predict(text):
     text = preprocesor(text)
     pred = model.predict([text])
     return pred_type[pred[0]]
-
-st.set_page_config(page_title="Text Ecommerce Classification", initial_sidebar_state='expanded', page_icon='📝', layout='wide')
 
 # Header
 
