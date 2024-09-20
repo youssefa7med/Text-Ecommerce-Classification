@@ -1,7 +1,7 @@
 streamlit
 pandas
 spacy
-en-core-web-sm
+en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.0/en_core_web_sm-3.7.0.tar.gz
 thinc
 scikit-learn
 numpy
