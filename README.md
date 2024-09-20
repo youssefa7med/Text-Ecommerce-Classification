@@ -1,6 +1,3 @@
-Here’s how you can include the GIF at the beginning of your README file:
-
-```markdown
 # Text Ecommerce Classification
 
 ![Text Ecommerce Classification](https://th.bing.com/th/id/R.22a952145b87318bfe3f151c5f8acb6f?rik=oaY6dpZQrkw1Qg&pid=ImgRaw&r=0)
@@ -62,7 +59,7 @@ The Text Ecommerce Classification project aims to classify ecommerce-related tex
 
 ## Live Application
 
-Explore the Text Ecommerce Classification tool directly through the following application: [Text Ecommerce Classification](#) *(Replace with actual link if applicable)*.
+Explore the Text Ecommerce Classification tool directly through the following application: [Text Ecommerce Classification](#).
 
 ## Getting Started
 
