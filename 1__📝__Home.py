@@ -2,12 +2,21 @@ import streamlit as st
 import pandas as pd
 import spacy
 import joblib
+import os
+import subprocess
 
 st.set_page_config(page_title="Text Ecommerce Classification", initial_sidebar_state='expanded', page_icon='📝', layout='wide')
 
 data = pd.read_csv("Ecommerce_data_cleaned.csv")
 
-nlp = spacy.load('en_core_web_sm')
+
+# Check if the language model is installed
+model_name = 'en_core_web_sm'
+if not spacy.util.is_package(model_name):
+    # Download the model if not present
+    subprocess.run(["python", "-m", "spacy", "download", model_name])
+
+nlp = spacy.load(model_name)
 
 def preprocesor(text):
     doc = nlp(text)
