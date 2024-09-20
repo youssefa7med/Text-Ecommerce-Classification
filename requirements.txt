@@ -1,5 +1,5 @@
 streamlit
 pandas
-numpy==1.23.5  # or a compatible version
+numpy==1.24.3  # or a compatible version
 scikit-learn==1.0.2
-spacy==3.2.4  # or a compatible version
+spacy==3.7.6  # or a compatible version
