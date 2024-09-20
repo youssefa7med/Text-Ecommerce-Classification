@@ -1,7 +1,7 @@
 import streamlit as st
-import spacy
 import pickle
 import pandas as pd
+import spacy
 
 data = pd.read_csv("Ecommerce_data_cleaned.csv")
 
