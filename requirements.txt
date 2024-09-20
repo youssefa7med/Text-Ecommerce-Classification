@@ -1,7 +1,7 @@
 streamlit
 pandas
-spacy==3.7.6
-thinc==8.2.3
-scikit-learn==1.0.2
-numpy==1.23.5
+spacy
+thinc
+scikit-learn
+numpy
 setuptools
