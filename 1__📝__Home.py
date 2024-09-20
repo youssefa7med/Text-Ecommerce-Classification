@@ -18,7 +18,7 @@ def preprocesor(text):
     return " ".join(tokens)
 
 # Load the saved model
-model = joblib.load(r"E:\data science\note.books\NLP\TF-IDF\Text-Ecommerce-Classification\new_model.joblib")
+model = joblib.load("new_model.joblib")
 
 pred_type = {0: 'Books', 1: 'Clothing & Accessories', 2: 'Electronics', 3: 'Household'}
 
