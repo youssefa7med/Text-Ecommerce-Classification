@@ -1,0 +1,5 @@
+spacy
+thinc==8.1.7
+numpy==1.26.4
+pandas==2.2.0
+streamlit==1.31.0
