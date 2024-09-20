@@ -5,7 +5,7 @@ import joblib
 
 st.set_page_config(page_title="Text Ecommerce Classification", initial_sidebar_state='expanded', page_icon='📝', layout='wide')
 
-data = pd.read_csv("Text-Ecommerce-Classification\Ecommerce_data_cleaned.csv")
+data = pd.read_csv("Ecommerce_data_cleaned.csv")
 
 nlp = spacy.load('en_core_web_sm')
 
