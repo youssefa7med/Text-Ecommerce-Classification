@@ -6,4 +6,3 @@ thinc
 scikit-learn
 numpy
 setuptools
-pickle
