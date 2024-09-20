@@ -59,7 +59,7 @@ The Text Ecommerce Classification project aims to classify ecommerce-related tex
 
 ## Live Application
 
-Explore the Text Ecommerce Classification tool directly through the following application: [Text Ecommerce Classification](#).
+Explore the Text Ecommerce Classification tool directly through the following application: [Text Ecommerce Classification](https://text-ecommerce-classification.streamlit.app/).
 
 ## Getting Started
 
